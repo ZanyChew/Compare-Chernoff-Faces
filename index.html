@@ -37,11 +37,11 @@
 
 			var svg = d3.select("#face").append("svg:svg")
 				dat = [
-					{f: 1, h: 1, m: 0, nw: 1, nh: 0.25, ew: 1, eh: 1, b: 0}];
+					{f: 1, h: 1, m: 0, nw: 1, nh: 0.5, ew: 1, eh: 1, b: 0}];
 					
 			var svgb = d3.select("#faceb").append("svg:svg")
 				datb = [
-					{f: 0, h: 0, m: 1, nw: 1, nh: 0.25, ew: 0, eh: 0, b: -1}];
+					{f: 0, h: 0, m: 1, nw: 1, nh: 0.5, ew: 0, eh: 0, b: -1}];
 
 			svg.selectAll("#face g.chernoff").data(dat).enter()
 				.append("svg:g")
